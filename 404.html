@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404</title>
+
+<style>
+body{
+margin:0;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+background:#000;
+overflow:hidden;
+}
+
+.logo{
+width:180px;
+height:auto;
+animation:spin 2s linear 1;
+}
+
+@keyframes spin{
+0%{
+transform:rotate(0deg);
+}
+100%{
+transform:rotate(1080deg);
+}
+}
+</style>
+</head>
+<body>
+
+<img src="logo.webp" class="logo" alt="Logo">
+
+<script>
+setTimeout(() => {
+window.location.href = "index.html";
+}, 4000);
+</script>
+
+</body>
+</html>
