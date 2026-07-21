@@ -10482,12 +10482,12 @@ const towns = [
   },
   {
     "name": "Qarnaoun",
-    "type": "gold",
+    "type": "purple",
     "lat": 34.27,
     "lng": 35.69,
     "status": "locked",
-    "priceMonth": 30,
-    "priceYear": 250,
+    "priceMonth": 90,
+    "priceYear": 1150,
     "tier": "Standard"
   },
   {
