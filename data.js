@@ -10486,8 +10486,8 @@ const towns = [
     "lat": 34.27,
     "lng": 35.69,
     "status": "locked",
-    "priceMonth": 90,
-    "priceYear": 1150,
+    "priceMonth": 95,
+    "priceYear": 890,
     "tier": "Standard"
   },
   {
